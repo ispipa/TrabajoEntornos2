@@ -83,7 +83,7 @@ public class OperacionesTest {
     }
    
     
-  
+    @Ignore
      @Test
     public void testSumarNegativoPositivo() {
         System.out.println("testSumarNegativoPositivo");
@@ -98,7 +98,7 @@ public class OperacionesTest {
     /**
      * Test of mayor method, of class Operaciones.
      */
-   @Ignore
+ 
     @Test
     public void testMayor() {
         System.out.println("mayor");

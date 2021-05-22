@@ -45,11 +45,15 @@ public class Operaciones {
  * el segundo sucede cuando el primer parametro  es menor que el segundo parametro de entrada y se devolvera el segundo parametro de entrada,
  * y el ultimo caso en el cual los dos parametros de entrada son iguales en el cual se devolvera culaquiera de los dos parametros de entrada.
  */
-        if(a>b){
+       if(a>b){
             return a;
-        }else{
+        }else if (a==b){
             return a;
+        }else
+        {
+        return b;
         }
+    
     }
 
    
