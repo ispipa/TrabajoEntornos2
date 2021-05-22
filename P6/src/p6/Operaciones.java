@@ -69,7 +69,7 @@ public class Operaciones {
  */
         int sum=0;
         for (int i = 0; i < numeros.length; i++) {
-            sum+=numeros[0];
+            sum+=numeros[i];
         }
         return sum;
     }

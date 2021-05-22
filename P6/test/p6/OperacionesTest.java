@@ -112,7 +112,7 @@ public class OperacionesTest {
         assertEquals(expResult, result);
         
     }
-    
+      @Ignore
       @Test
     public void testIgual() {
         System.out.println("testIgual");
@@ -130,7 +130,7 @@ public class OperacionesTest {
     /**
      * Test of sumarVector method, of class Operaciones.
      */
-  @Ignore
+
     @Test
     public void testSumarVector() {
         System.out.println("sumarVector");
