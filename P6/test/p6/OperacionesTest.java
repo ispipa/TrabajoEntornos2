@@ -5,12 +5,14 @@
  */
 package p6;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.junit.Ignore;
+
 
 /**
  *
@@ -20,23 +22,24 @@ public class OperacionesTest {
     
     public OperacionesTest() {
     }
-    
-    @BeforeAll
+
+    @BeforeClass
     public static void setUpClass() {
+     
     }
     
-    @AfterAll
+    @AfterClass
     public static void tearDownClass() {
     }
     
-    @BeforeEach
+    @Before
     public void setUp() {
+     
     }
     
-    @AfterEach
+    @After
     public void tearDown() {
     }
-
     /**
      * Test of sumarPar method, of class Operaciones.
      */
@@ -101,6 +104,19 @@ public class OperacionesTest {
          
         int a = 0;
         int b = 2;
+       int result = instance.mayor(a, b);
+       
+        int expResult = 2;
+        assertEquals(expResult, result);
+        
+    }
+      @Test
+    public void testIgual() {
+        System.out.println("testIgual");
+         Operaciones instance = new Operaciones();
+         
+        int a = 0;
+        int b = 0;
        int result = instance.mayor(a, b);
        
         int expResult = 0;
