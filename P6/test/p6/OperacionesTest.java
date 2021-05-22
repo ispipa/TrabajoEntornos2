@@ -69,7 +69,7 @@ public class OperacionesTest {
         assertEquals(expResult, resultado);  
     }
 
-   
+         @Ignore
     @Test
     public void testSumarImparPositivo() {
         System.out.println("testSumarImparPositivo");
@@ -83,7 +83,7 @@ public class OperacionesTest {
     }
    
     
-     @Ignore
+  
      @Test
     public void testSumarNegativoPositivo() {
         System.out.println("testSumarNegativoPositivo");
