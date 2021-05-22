@@ -98,7 +98,7 @@ public class OperacionesTest {
     /**
      * Test of mayor method, of class Operaciones.
      */
- 
+   @Ignore
     @Test
     public void testMayor() {
         System.out.println("mayor");
@@ -112,7 +112,7 @@ public class OperacionesTest {
         assertEquals(expResult, result);
         
     }
-      @Ignore
+    
       @Test
     public void testIgual() {
         System.out.println("testIgual");
