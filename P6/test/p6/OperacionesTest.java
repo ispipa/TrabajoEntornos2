@@ -43,6 +43,7 @@ public class OperacionesTest {
     /**
      * Test of sumarPar method, of class Operaciones.
      */
+    @Ignore
        @Test
     public void testSumarPar() {
         System.out.println("sumarPar");
@@ -55,6 +56,7 @@ public class OperacionesTest {
         assertEquals(expResult, resultado);
         
     }
+      @Ignore
     @Test
     public void testSumarImpar() {
         System.out.println("sumarImpar");
@@ -81,7 +83,7 @@ public class OperacionesTest {
     }
    
     
-   
+     @Ignore
      @Test
     public void testSumarNegativoPositivo() {
         System.out.println("testSumarNegativoPositivo");
@@ -96,7 +98,7 @@ public class OperacionesTest {
     /**
      * Test of mayor method, of class Operaciones.
      */
- 
+   @Ignore
     @Test
     public void testMayor() {
         System.out.println("mayor");
@@ -110,6 +112,7 @@ public class OperacionesTest {
         assertEquals(expResult, result);
         
     }
+      @Ignore
       @Test
     public void testIgual() {
         System.out.println("testIgual");
@@ -127,7 +130,7 @@ public class OperacionesTest {
     /**
      * Test of sumarVector method, of class Operaciones.
      */
-
+  @Ignore
     @Test
     public void testSumarVector() {
         System.out.println("sumarVector");
